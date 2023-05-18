@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <style>
+        a{
+            text-decoration: none;
+        }
+        .card img{
+            height:480px;
+        }
+        #cart{
+ background-color:moccasin;
+}
+#id{
+    height:100px;
+    width:200px;
+    display:inline;
+   padding-left:4px;
+}
+.footer{
+    height:300px;
+}
+
+       
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark sticky-top">
+        <div class="container-fluid">
+            
+                <ul class="navbar-nav">
+        
+                    <li class="nav-item p-2 icon-black">
+                
+                        
+                        <a href="home.html"><i class="  fa fa-home mt-4" style="font-size:45px" ></i></a>
+                    </li>
+                    <li  class="nav-item p-2 ">
+                        <a class="nav-link bg-white rounded-pill text-dark mt-4 "href="aboutus.html"><b>ABOUT US</b></a>
+                    </li>
+                    <li class=" p-2 dropdown p-2">
+                        <button type="button" class="btn btn-light rounded-pill dropdown-toggle mt-4 " data-bs-toggle="dropdown">
+                            <b>CATEGORIES</b>
+                          </button>
+                       <ul class="dropdown-menu">
+                                <li class="dropdowm-list"><a href="women.html">Women store</a></li>
+                                <li class="dropdowm-list"><a href="men.html">Men store</a></li>
+                                <li class="dropdowm-list"><a href="kids.html">kids</a></li>
+                                <li class="dropdowm-list"><a href="kitchen.html">kitchen</a></li>
+                                <li class="dropdowm-list"><a href="electronics.html">Electronics</a></li>
+                                <li class="dropdowm-list"><a href="plants.html">plants</a></li>
+                            </ul>
+                        
+                    </li>
+                    <li  class="nav-item p-2">
+                        <a class="nav-link bg-white rounded-pill text-dark mt-4"href="contactus.html"><b>CONTACT US</b></a>
+                    </li>
+                    <li class="nav-item p-2">
+                         <a class="navbar-brand ">
+                            <img src="https://img.freepik.com/premium-vector/smart-mart-vector-icon-s-mart-typography-logo_302321-1270.jpg?w=2000" alt="Logo" style="width:80px;" class="rounded-pill">            
+                        </li>
+                    </ul>
+                
+                    <li class="p-3 mt-3">
+                        <button id="cart" type="submit"><i class="fa fa-shopping-cart p-2" style="font-size:15px;"></i></button>
+                      
+                    <input type="search" placeholder="search">
+                    <button type="submit"><i class="fa fa-search p-2" style="font-size:15px;"></i></button>
+                </li>
+                
+                    </div>
+                    </nav>
+    <div id="mart" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" class="active" data-bs-slide-to="0" data-bs-target="#mart"></button>
+            <button type="button"  data-bs-slide-to="1" data-bs-target="#mart"></button>
+            <button type="button" data-bs-slide-to="2" data-bs-target="#mart"></button>
+            <button type="button" data-bs-slide-to="3" data-bs-target="#mart"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://content.cdn.sap.com/is/image/sap/sapwdf-smartinnovation:3840x2160?wid=722&hei=406&fit=stretch,1" class="d-block" style="width:100%" ></div>
+            <div class="carousel-item">
+                <img src="https://content.cdn.sap.com/is/image/sap/sapwdf-smartexplore:HeroL-3840x1044?wid=1920&hei=522&fit=stretch,1" alt="" class="d-block" style="width:150%">
+            </div>
+            <div class="carousel-item">
+                <img src="https://globalnews.ca/wp-content/uploads/2019/11/22165033.jpg?quality=85&strip=all" alt="" class="d-block" style="width:100%">
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.smart-online.in/image/cache/catalog/Website%20Slider%203%20Size-965x486.jpg" alt="" class="d-block"style="width:100%">
+            </div>
+        </div>
+        <button type="button" class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#mart">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button type="button" class="carousel-control-next" data-bs-slide="next" data-bs-target="#mart">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+        </div>
+
+
+        <div class="footer bg-dark text-white p-5 height:fit-content">
+           <div style="display:grid;grid-template-columns:auto auto auto auto auto auto auto">
+            
+                <center><h4>About S-MART</h4><p>S Mart is an evolving technology,<br> logistics and payments infrastructure that offers<br> a shopping experience that is<br> safe, seamless and enjoyable.</p>
+                </center>
+                <center><ul type="none"><a href="home.html"><li>home</li></a>
+                    <a href="aboutus.html"> <li>aboutus</li></a>
+                     <a href="women.html"><li>women wear</li></a>
+                     <a href="men.html"><li>men wear</li></a>
+                     <a href="kitchen.html"><li>kitchen</li></a>
+                     <a href="kids.html"><li>kids</li></a>
+                     <a href="electronics.html"><li>electronics</li></a>
+                     <a href="plants.html"><li>plants</li></a>
+                     <a href="contactus.html"><li>contactus</li></a>
+                    </ul></center>
+            
+            <button id="id" style="background-color:cornflowerblue" type="button"><i id="icons"class="fa fa-facebook text-white"></i>Find us on facebook</button><br><br>
+            <button id="id" style="background-color:crimson" type="button"> <i id="icons"class="fa fa-instagram text-white"></i>Find us on instagram</button><br><br>
+            <button id="id" style="background-color:maroon" type="button"> <i id="icons" class="fa fa-youtube text-white"></i>Find us on youtube</button><br><br></div>
+           
+            
+            </div>
+        
+      
+       
+</body>
+</html>
